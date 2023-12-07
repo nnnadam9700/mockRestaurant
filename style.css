@@ -1,0 +1,112 @@
+h1 {
+    border-bottom: 5px solid rgb(172, 29, 29);
+  }
+  
+  h2 {
+    border-bottom: 2px solid rgb(172, 29, 29);
+  }
+
+.carousel-item {
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 8px;
+  }
+
+footer {
+    background-color: rgb(176, 52, 52);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.carousel-item p {
+    color: rgb(220, 220, 220);
+    
+}
+
+.flashcard {
+    display: none;
+    padding: 2em;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 1em;
+}
+
+button {
+    margin: 1em;
+    padding: 0.5em 1em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input,
+.textarea {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Kérjük minden fontos információt adjon meg! (Hány fő, mikor, meddig...)";
+  color: gray;
+}
+
+/* Just for demo */
+* {
+  box-sizing: border-box;
+}
+#contact, #about, #menu {
+  font-family: "Heebo", sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 5rem;
+  margin-bottom: 150px;
+}
+
+p strong {
+  display: block;
+  margin-top: 15px;
+}
+
+#stars {
+    max-width: 250px;
+    height: 40px;
+}
+
+
+

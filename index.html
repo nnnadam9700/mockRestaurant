@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <title>Példa János Étterme</title>
+</head>
+<body>
+    <!-- Navigáció -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <button class="nav-link" onclick="showSection('home')" style="font-weight: 500; color: black;">Példa János Étterme ☆☆☆☆</button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <button class="nav-link" onclick="showSection('home')">Főoldal</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="showSection('menu')">Étlap</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="showSection('about')">Rólunk</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="showSection('contact')">Kapcsolat</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <header>
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(image1.jpg);">
+          <div class="carousel-caption">
+            <h5>Példa János Étterme</h5>
+            <p>1990 óta várja éttermünk a korgó gyomrokat</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(image2.jpg);">
+          <div class="carousel-caption">
+            <h5>Minőség mindenek előtt</h5>
+            <p>Gondosan válogatott hozzávalóink biztosítják a lehető legjobb élményt</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(image3.jpg);">
+          <div class="carousel-caption">
+            <h5>Próbálja ki Ön is!</h5>
+            <p>A foglalás ingyenes, a kimagasló élmény garantált ;)</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Előző</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Következő</span>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Oldal -->
+  <section class="py-5">
+    <div class="container">
+        <h1 class="fw-light">Üdvözöljük éttermünk weboldalán!</h1>
+        <p class="lead">Böngésszen étlapjaink valamint referenciáink között! Reméljük, hamarosan találkozunk!</p>
+    </div>
+  </section>
+
+    <section id="home">
+        
+    </section>
+
+    <section id="menu" class="flashcard">
+        <h2>Étlap</h2>
+        <h4 style="text-align: left; font-style: italic; font-weight: bold;">Előételek</h4>
+        <p style="text-align: justify">Velős pirítós, friss zöldségekkel </p>
+        <p style="text-align: right;">2350.-</p>
+        <h4 style="text-align: left; font-style: italic; font-weight: bold;">Főételek</h4>
+        <p style="text-align: justify">Pácolt csirkemellfilé bazsalikomos rizottóval, friss zöldségekkel</p>
+        <p style="text-align: right;">3350.-</p>
+        <p style="text-align: justify">Steak, hasábkrumplival</p>
+        <p style="text-align: right;">4750.-</p>
+        <h4 style="text-align: left; font-style: italic; font-weight: bold;">Desszertek</h4>
+        <p style="text-align: justify">Brownie, vanília fagylalttal</p>
+        <p style="text-align: right;">1950.-</p>
+    </section>
+
+    <section id="about" class="flashcard">
+        <h2>Rólunk</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ab quasi optio exercitationem hic voluptatem quaerat accusamus consectetur, soluta at libero deleniti laudantium sint dolorem inventore, voluptas aliquid deserunt impedit?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae impedit, atque laborum a possimus ut deleniti id consectetur illo harum qui, quia nam dolore, quos eum. Quisquam aperiam unde libero.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias a illo vero accusamus esse necessitatibus. Distinctio delectus aut autem blanditiis ratione. Hic perspiciatis maiores alias tenetur magnam enim suscipit?</p>
+            <br>
+            <p>
+                <figure><img src="stars.png" alt="4 csillag" id="stars"></figure>
+            </p>
+        
+    </section>
+
+    <section id="contact" class="flashcard">
+        <h2>Lépjen kapcsolatba velünk!</h2>
+        <p>Asztalfoglalás vagy kérdés esetén használja az alábbi űrlapot</p>
+        <p><strong>Név: </strong></p> 
+        
+        <input class="input" type="text" name="nev" id="nev">
+        
+        <p><strong>E-mail: </strong></p>
+        
+        <input class="input" type="email" name="email" id="email">
+        
+        <p><strong>Üzenet: </strong></p>
+        
+        <span class="textarea" role="textbox" contenteditable></span></p>
+
+        <button class="btn btn-outline-dark" type="submit" onclick="alert('Az üzenet elküldve! Hamarosan válaszolunk! Köszönjük.')">Üzenet küldése</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Példa János Étterme</p>
+    </footer>
+</body>
+</html>
